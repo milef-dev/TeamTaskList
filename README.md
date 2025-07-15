@@ -1,6 +1,6 @@
 # TeamTaskList
 
-📌 Fase 2: Refinamento
+# 📌 Fase 2: Refinamento
 Aqui estão algumas perguntas legais para trocar ideia com o Product Owner (PO) e deixar tudo mais claro, alinhar o que esperar e pensar nas próximas melhorias:
 
 Que tal ter notificação quando uma tarefa for atualizada?
@@ -19,7 +19,7 @@ Importar tarefas em lote, pra não ter que cadastrar uma por uma.
 
 E uma tela web pra facilitar o acesso e deixar tudo mais prático.
 
-🚀 Fase 3: Melhorias Futuras e Visão Arquitetural
+# 🚀 Fase 3: Melhorias Futuras e Visão Arquitetural
 Algumas ideias pra deixar o projeto mais robusto e pronto pro que vier pela frente:
 
 Além dos testes unitários, mandar ver nos testes de integração pra garantir que tudo conversa direitinho entre as partes.
