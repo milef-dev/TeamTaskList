@@ -2,7 +2,7 @@
 
 Caro usuário,
 
-Antes de começarmos, gostaríamos de lembrar que todas as explicações, passo a passo, permissões, observações e demais detalhes do projeto estão disponíveis no link [insira o link aqui]. O projeto está em constante evolução, 
+Antes de começarmos, gostaríamos de lembrar que todas as explicações, passo a passo, permissões, observações e demais detalhes do projeto estão disponíveis no arquivo # Info.html (Importante baixar o projeto e abrir o arquivo, para uma melhor visualização do passo a passo)
 
 # 📌 Fase 2: Refinamento
 Aqui estão algumas perguntas legais para trocar ideia com o Product Owner (PO) e deixar tudo mais claro, alinhar o que esperar e pensar nas próximas melhorias:
