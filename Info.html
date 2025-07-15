@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instruções para Rodar a API de Gerenciamento de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        pre {
+            background-color: #272822;
+            color: #f8f8f2;
+            padding: 12px 16px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            font-size: 1em;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Instruções para execução da API de Gerenciamento de Tarefas</h1>
+
+    <section>
+        <h2>👋 Introdução</h2>
+        <p>
+            Olá! Meu nome é <b>Jamile</b> e estou muito feliz em participar deste processo.<br />
+            Espero que esta documentação facilite o entendimento e a execução da API de gerenciamento de tarefas que desenvolvi.
+            Fique à vontade para seguir o passo a passo e, caso tenha dúvidas, estou à disposição para ajudar!<br /><br />
+
+            Gostaria de compartilhar que o tempo disponível para o desenvolvimento foi reduzido devido a um problema técnico com a minha máquina. Ainda assim, me dediquei ao máximo para entregar um trabalho de qualidade, que reflita minhas habilidades e comprometimento.<br />
+            Espero que, ao analisar esta solução, vocês possam perceber meu potencial e minha capacidade de superar desafios, e que isso não impacte negativamente        minha avaliação neste processo. <br />
+
+        </p>
+    </section>
+
+    <section>
+        <h2>🔧 Sobre a aplicação</h2>
+        <p>
+            A aplicação permite o gerenciamento de tarefas por usuários, incluindo criação e listagem de projetos, tarefas com prioridade fixa, regras de negócio como histórico de alterações, restrição de remoção de projetos com tarefas pendentes, limite de tarefas por projeto e geração de relatórios para perfis gerenciais.
+        </p>
+        <p>O sistema está preparado para rodar via Docker e já possui o arquivo <code>docker-compose.yml</code> para facilitar a execução.</p>
+    </section>
+
+    <section>
+        <h2>📦 Scripts do Banco</h2>
+        <p>
+            Os scripts de criação do banco estão incluídos, porém utilizei migrations para gerar automaticamente as estruturas.
+            Caso precise, os scripts manuais estão disponíveis no repositório.
+        </p>
+    </section>
+
+    <section>
+        <h2>⚙️ Configuração de conexão com o banco</h2>
+        <p>As configurações de conexão com o banco (endereço, usuário e senha) estão no arquivo:</p>
+        <pre><code>appsettings.json (seção SqlServer)</code></pre>
+        <p>Altere esses valores conforme seu ambiente local, se necessário.</p>
+    </section>
+
+    <section>
+        <h2>▶️ Como rodar a aplicação</h2>
+        <ol>
+            <li>Abra o terminal na pasta raiz do projeto, onde estão o <code>.sln</code>, <code>Dockerfile</code> e <code>docker-compose.yml</code>.</li>
+            <li>Execute o comando abaixo para buildar e subir os containers:</li>
+        </ol>
+        <pre><code>docker-compose up --build</code></pre>
+        <p>Aguarde o processo de build e inicialização. Você verá os logs da API e do SQL Server.</p>
+    </section>
+
+    <section>
+        <h2>🌐 Acessando a API</h2>
+        <p>Após os containers estarem rodando, acesse a documentação via Swagger:</p>
+        <pre><code>http://localhost:8080/swagger</code></pre>
+    </section>
+
+    <footer>
+        <p>Qualquer dúvida, estou à disposição!</p>
+    </footer>
+</body>
+</html>

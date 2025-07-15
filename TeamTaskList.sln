@@ -27,6 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8EC462FD-D22
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 		Dockerfile = Dockerfile
+		Info.html = Info.html
+		ScriptHistorys.txt = ScriptHistorys.txt
+		ScriptProject.txt = ScriptProject.txt
+		ScriptTasks.txt = ScriptTasks.txt
+		ScriptTaskComment.txt = ScriptTaskComment.txt
 	EndProjectSection
 EndProject
 Global
